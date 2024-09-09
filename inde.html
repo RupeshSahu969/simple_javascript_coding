@@ -1,0 +1,52 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Event Listener Example</title>
+</head>
+<body>
+    <button id="myButton">Click me!</button>
+
+    <script>
+        // Select the button element
+        const button = document.getElementById('myButton');
+        
+        // Define the event handler function
+        function handleClick(event) {
+            alert('Button clicked!');
+        }
+        
+        // Attach the event listener
+        button.addEventListener('click', handleClick);
+    </script>
+</body>
+</html> -->
+
+
+
+<!-- /// second -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Manipulation Example</title>
+</head>
+<body>
+    <p id="myParagraph">Original Content</p>
+    <button id="changeContentButton">Change Content</button>
+
+    <script>
+        // Select the paragraph and button elements
+        const paragraph = document.getElementById('myParagraph');
+        const button = document.getElementById('changeContentButton');
+        
+        // Define the function to change the paragraph content
+        function changeContent() 
+        {
+            paragraph.innerHTML = 'Content has been changed!';
+        }
+        
+        // Attach the event listener to the button
+        button.addEventListener('click', changeContent);
+    </script>
+</body>
+</html>

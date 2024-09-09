@@ -24,23 +24,19 @@
 // let arr=[1, 2, 2, 3, 4, 4, 5]  // 1,2,3,4,5
 // removeDUblicate(arr)
 
-
 /// use Object
 
-function dubliObject(arr){
-    let unique=[]
-    let obj={};
+function dubliObject(arr) {
+  let unique = [];
+  let obj = {};
 
-for(let i=0; i<arr.length; i++)
-{
-    if(!obj[arr[i]]){
-        unique[unique.length] =arr[i]
-        obj[arr[i]] = true
+  for (let i = 0; i < arr.length; i++) {
+    if (!obj[arr[i]]) {
+      unique[unique.length] = arr[i];
+      obj[arr[i]] = true;
     }
-
+  }
+  console.log(unique);
 }
-console.log(unique)
-
-}
-let arr=[1,2,3,4,4,3,2,1,5,6,1,2,3,4,1,2,3,4]
-dubliObject(arr)
+let arr = [1, 2, 3, 4, 4, 3, 2, 1, 5, 6, 1, 2, 3, 4, 1, 2, 3, 4,7,8,9];
+dubliObject(arr);

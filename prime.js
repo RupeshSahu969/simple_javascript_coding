@@ -4,7 +4,8 @@ function Prime(n) {
     //     return;
     // }
 
-    for (let i = 2; i < n; i++) {
+    for (let i = 2; i < n; i++)
+         {
         if (n % i == 0) {
             console.log("not Prime");
             // return;

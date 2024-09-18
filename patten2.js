@@ -10,6 +10,7 @@ function Patten(){
             k +=j
         }
         console.log(k)
+        
     }
     
 }

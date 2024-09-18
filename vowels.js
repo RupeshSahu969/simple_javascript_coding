@@ -5,7 +5,8 @@ function countVowels(str) {
     for (let i = 0; i < str.length; i++) {
         
         for (let j = 0; j < vowels.length; j++) {
-            if (str[i] === vowels[j]) {
+            if (str[i] === vowels[j]) 
+                {
                 count++;
                 break; 
             }
@@ -14,4 +15,4 @@ function countVowels(str) {
     return count;
 }
 
-console.log(countVowels("i")); 
+console.log(countVowels("i,e,o,u")); 

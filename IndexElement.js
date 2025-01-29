@@ -8,3 +8,4 @@ function findIndex(arr, element) {
 }
 
 console.log(findIndex([10, 20, 30, 40], 30)); // 2
+ 

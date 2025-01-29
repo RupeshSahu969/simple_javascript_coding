@@ -8,14 +8,14 @@ function Prime(n) {
          {
         if (n % i == 0) {
             console.log("not Prime");
-            // return;
+            return;
         }
     }
 
     console.log("Prime");
 }
 
-let n = 5;
+let n = 7;
 Prime(n); // Output: not Prime
 
 // n = 11;

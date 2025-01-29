@@ -9,7 +9,7 @@ const data = [
   
   const updatedData = data.map((item, index) => ({
     id: index + 1,
-    ...item
+    ...item,
   }));
   
   console.log(updatedData);

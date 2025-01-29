@@ -1,6 +1,7 @@
 let p = "asddsa";
 
 function Paildrom(p) {
+  
   let bag = "";
 
   for (let i = p.length - 1; i >= 0; i--) {
@@ -12,6 +13,7 @@ function Paildrom(p) {
   } else {
     console.log("not paildrom");
   }
-}
+  
+} 
 
 Paildrom(p);

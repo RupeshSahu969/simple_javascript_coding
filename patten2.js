@@ -9,10 +9,10 @@ function Patten(){
         {
             k +=j
         }
+        
         console.log(k)
         
     }
-    
 }
 
 Patten(n)

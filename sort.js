@@ -18,9 +18,7 @@ function Array(arr){
         }
     }
     console.log(arr)
-
-
 }
- 
+
 Array(arr)
 

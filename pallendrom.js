@@ -4,7 +4,8 @@ function Paildrom(p) {
   
   let bag = "";
 
-  for (let i = p.length - 1; i >= 0; i--) {
+  for (let i = p.length - 1; i >= 0; i--) 
+    {
     bag += p[i];
   }
 

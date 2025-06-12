@@ -21,4 +21,5 @@ function Data(arr) {
   console.log(count);
 }
 
+
 Data(arr);

@@ -13,6 +13,6 @@ function dubliObject(arr) {
   console.log(unique);
 }
 
-
 let arr = [1, 2, 3, 4, 4, 3, 2, 1, 5, 6];
+
 dubliObject(arr);

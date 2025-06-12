@@ -4,7 +4,8 @@ let arr2=[7,8,9,10,11,12,13];
 function ArrayTwo(arr1,arr2){
 let result= [] ;
 
-for(let i=0; i<arr1.length; i++){
+for(let i=0; i<arr1.length; i++)
+    {
     for(let j=0; j<arr2.length; j++)
     {
         if(arr1[i]==arr2[j]){

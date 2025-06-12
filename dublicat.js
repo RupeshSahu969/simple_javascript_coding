@@ -12,5 +12,6 @@ function Dublicate(arr) {
   }
   console.log(sum);
 }
-let arr = [1, 2, 3, 4, 4, 3, 2, 1, 5, 6, 7]; //1,2,3,4
+let arr = [1, 2, 3, 4, 4, 3, 2, 1, 5, 6, 7]; 
+
 Dublicate(arr);

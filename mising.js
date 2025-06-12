@@ -1,4 +1,4 @@
-let arr = [1, 2, 3, 5, 7];
+let arr = [1, 2, 3,4, 5, 7];
 
 function Missing(arr) {
   

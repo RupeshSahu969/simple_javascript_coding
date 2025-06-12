@@ -12,9 +12,10 @@ for(let i=1; i<=n; i++)
     }
 
     for(let k=1; k<=2*i-1; k++)
-        {
+    {
         row +="*"
     }
+
     console.log(row)
 }
 

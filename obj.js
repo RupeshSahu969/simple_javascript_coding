@@ -4,7 +4,7 @@ let obj= {
     baja:"saja",
     number:"123456",
     geetin: function(){
-        console.log(this)
+        console.log(this.baja)
     }
     }
     

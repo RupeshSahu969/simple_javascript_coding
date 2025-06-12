@@ -16,5 +16,6 @@ function Even(){
             console.log(i);
         }
     }
+
     }
     Even()

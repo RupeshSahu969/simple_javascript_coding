@@ -15,6 +15,7 @@ function countVowels(str) {
 
 
 
-console.log(countVowels("i,e,o,u"));
+
+console.log(countVowels("Hello World"));
 
 

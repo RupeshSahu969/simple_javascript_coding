@@ -23,3 +23,8 @@ for (let row = 0; row < 3; row++) {
     }
     console.log(rowString.trim()); // Print the row
 }
+
+// 1 4 7
+// 2 5 8
+// 3 6 9  output
+

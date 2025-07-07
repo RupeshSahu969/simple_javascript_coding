@@ -15,3 +15,29 @@ function Dublicate(arr) {
 let arr = [1, 2, 3, 4, 4, 3, 2, 1, 5, 6, 7]; 
 
 Dublicate(arr);
+
+
+// function findDuplicates(arr) {
+//   let map = {};
+//   let result = "";
+
+//   for (let i = 0; i < arr.length; i++) {
+//     let num = arr[i];
+
+//     if (map[num]) {
+//       // If it’s the second time, only then add to result
+//       if (map[num] === 1) {
+//         result += num + " ";
+//       }
+//       map[num]++;
+//     } else {
+//       map[num] = 1;
+//     }
+//   }
+
+//   console.log("Duplicate elements:", result);
+// }
+
+// let arr = [1, 2, 3, 4, 4, 3, 2, 1, 5, 6, 7];
+
+// findDuplicates(arr);

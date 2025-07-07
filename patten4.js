@@ -2,7 +2,7 @@ let n = 5; // Number of rows
 
 function generatePattern(n) {
   for (let i = 1; i <= n; i++) {
-    let str = ""; // Reset the string for each row
+    let str = "";
     for (let j = 1; j <= i; j++) {
       str += "*"; // Add '*'
       if (j < i) {

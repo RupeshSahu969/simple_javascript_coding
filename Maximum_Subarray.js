@@ -5,25 +5,23 @@
 // Output: 6
 // Explanation: The subarray [4,-1,2,1] has the largest sum 6.
 
-function SubArray(nums){
-let sum =0;
+function SubArray(nums) {
+  let sum = 0;
 
-let max=nums[0]
+  let max = nums[0];
 
-for(let i=0; i<nums.length; i++){
-    sum +=nums[i]
+  for (let i = 0; i < nums.length; i++) {
+        sum += nums[i];
 
-    if(sum > max){
-        max=sum
+    if (sum > max) {
+      max = sum;
     }
-    if(sum < 0){
-        sum =0;
+    if (sum < 0) {
+      sum = 0;
     }
+  }
+
+  console.log(max);
 }
 
-console.log(max)
-
-    
-}
-
-SubArray([-2,1,-3,4,-1,2,1,-5,4])
+SubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]);

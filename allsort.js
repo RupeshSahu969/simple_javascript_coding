@@ -56,7 +56,7 @@ function insertionSort(arr) {
 
   for (let i = 1; i < n; i++) {
     // n
-    const key = arr[i];
+    const key = arr[i]; 
     let j = i - 1;
     while (j >= 0 && arr[j] > key) {
       // n

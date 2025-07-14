@@ -4,11 +4,11 @@
 //     x= x.split("").sort().join("")
 
 //     return s === x
-// }
+// } 
 
 // console.log(Anagram("anagram","nagaram"))
 
-function Anagram(s, t) {
+function Anagram(s, t) { 
    if(s.length !== t.length) return false;
 
    let obj1={};
@@ -25,7 +25,7 @@ function Anagram(s, t) {
     }
 
    }
-   return true
+   return true 
 
 }
 

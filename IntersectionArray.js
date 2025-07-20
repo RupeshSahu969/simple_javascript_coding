@@ -19,4 +19,4 @@ function ArrayTwo(arr1, arr2) {
   console.log(result);
 }
 
-ArrayTwo(arr1, arr2);
+ArrayTwo(arr1, arr2); // [ 4, 5, 6 ]

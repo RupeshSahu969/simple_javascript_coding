@@ -13,6 +13,8 @@ let n = 7;
 Prime(n); // Output: Prime
 
 
+
+
 // //Print  this prime number 2 se 20 
 // function printPrimes(start, end) {
 //   for (let num = start; num <= end; num++) {

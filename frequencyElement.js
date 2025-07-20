@@ -12,7 +12,7 @@ function countFrequency(arr) {
   }
   console.log(freq)
 }
-countFrequency(arr)
+countFrequency(arr)  // { '1': 1, '2': 2, '3': 3, '4': 2 }
 
 // function Array(arr){
     

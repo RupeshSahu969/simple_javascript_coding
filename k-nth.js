@@ -13,4 +13,4 @@ function kthElement(arr, k) {
     }   
 
 }
-kthElement(arr, k); //  9
+kthElement(arr, k); //  9  second bada value

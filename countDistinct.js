@@ -24,4 +24,4 @@ function countDuplicateDistinct(arr) {
   console.log(count);
 }
 
-countDuplicateDistinct(arr);
+countDuplicateDistinct(arr);  //2  becuase 2 and 5 are dublicate 1+1 =2

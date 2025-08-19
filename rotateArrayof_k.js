@@ -23,7 +23,8 @@ function rotateArray(num, k) {
 console.log(rotateArray([1, 2, 3, 4, 5, 6, 7], 3));
 
 function reverse(num, left, right) {
-  while (left < right) {
+  while (left < right) 
+    {
     let temp = num[left];
     num[left++] = num[right];
     num[right--] = temp;

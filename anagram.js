@@ -29,4 +29,4 @@ function Anagram(s, t) {
 
 }
 
-console.log(Anagram("anagram", "nagaram"))
+console.log(Anagram("anagram", "nagara")) //true

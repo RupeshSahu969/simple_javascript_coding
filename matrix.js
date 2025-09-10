@@ -16,7 +16,8 @@ for (let row = 0; row < 3; row++) {
 }
 
 // Step 4: Print the matrix in the desired format
-for (let row = 0; row < 3; row++) {
+for (let row = 0; row < 3; row++) 
+    {
     let rowString = ""; 
     for (let col = 0; col < 3; col++) {
         rowString += matrix[row][col] + "   "; 

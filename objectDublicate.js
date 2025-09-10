@@ -22,4 +22,4 @@ function Data(arr) {
 }
 
 
-Data(arr);
+Data(arr); // 40, 50

@@ -3,20 +3,20 @@
 // time complexity=o(n^2)
 // space complexity= o(1)
 
-// function BubbleSort(arr){
-//     let m=arr.length;
+function BubbleSort(arr){
+    let m=arr.length;
 
-//     for(let i=0; i<m; i++)
-//     {
-//         for(let j=0; j<m-i-1; j++)
-//         {
-//             if(arr[j] > arr[j+1]){
-//                 [arr[j],arr[j+1]] = [arr[j+1],arr[j]]
-//             }
-//         }
-//     }
-//     return arr;
-// }
+    for(let i=0; i<m; i++)
+    {
+        for(let j=0; j<m-i-1; j++)
+        {
+            if(arr[j] > arr[j+1]){
+                [arr[j],arr[j+1]] = [arr[j+1],arr[j]]
+            }
+        }
+    }
+    return arr;
+}
 
 // console.log(BubbleSort([29,14,10,37,14])) //[10,14,14,29,37]
 

@@ -13,7 +13,7 @@ function rotateArray(num, k) {
   if (size > k) {
     k = k % size;
   }
-
+ 
   reverse(num, 0, size - 1);
   reverse(num, 0, k - 1);
   reverse(num, k, size - 1);
@@ -23,7 +23,8 @@ function rotateArray(num, k) {
 console.log(rotateArray([1, 2, 3, 4, 5, 6, 7], 3));
 
 function reverse(num, left, right) {
-  while (left < right) {
+  while (left < right) 
+    {
     let temp = num[left];
     num[left++] = num[right];
     num[right--] = temp;

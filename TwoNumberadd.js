@@ -8,6 +8,7 @@ const twoSum=function(num,target){
             }
         }
     }
+    return null
 }
 // const twoSum=function(num,target){
 

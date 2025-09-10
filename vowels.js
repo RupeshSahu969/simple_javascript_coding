@@ -8,11 +8,10 @@ function countVowels(str) {
         count++;
         break;
       }
-    }
+    } 
   }
   return count;
 }
-
 
 
 console.log(countVowels("Hello World"));

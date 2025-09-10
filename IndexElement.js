@@ -5,7 +5,7 @@ function findIndex(arr, element) {
             return i;
         }
     }
-    return -1;
+    return -1; 
 }
 
 console.log(findIndex([10, 20, 30, 40], 30)); // 2

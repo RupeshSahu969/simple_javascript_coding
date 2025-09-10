@@ -13,7 +13,7 @@ function rotateArray(num, k) {
   if (size > k) {
     k = k % size;
   }
-
+ 
   reverse(num, 0, size - 1);
   reverse(num, 0, k - 1);
   reverse(num, k, size - 1);
